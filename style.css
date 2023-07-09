@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+nav{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+}
+@media (min-width:700px){
+    .img-fluid{
+        height: 118rem;
+    }
+}
+
+#collect{
+    position: relative;
+    margin-top: -100px;
+}
+
+@media (max-width:1470px){
+    #image2{
+        margin-top: 10px;
+    }
+    #margin{
+     display: flex;
+     justify-content: flex-start;
+        /* margin-left:9rem !important; */
+        margin-left:0 !important ;
+        margin-right: 2rem !important;
+    }
+}
+@media (max-width:700px){
+    #right{
+     padding-right: 2rem;
+    }
+}
+@media (max-width:910px){
+    #deals{
+     padding-left: 0rem !important;
+     padding-right: 0rem !important ;
+    }
+    #button{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important ;
+    }
+    .pos{
+        padding-left: 1rem;
+    }
+    .feedback{
+        padding-left:14rem ;
+    }
+    #media{
+        margin-right: -10rem !important;
+        margin-top: -1rem;
+    }
+}
+
+
+.py-50{
+    margin-left: 8rem !important ;
+    margin-right: 10rem !important;
+}
+
+.col-sm-2{
+    line-height: 17px !important;
+    font-size: 10px;
+}
+
+.flex-md-nowrap{
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;
+
+}
+
+.gap-3{
+    /* margin-left: 12rem !important; */
+    padding-left: 10rem  !important;
+    padding-right: 10rem  !important;
+}
+
+.deals{
+    /* margin-left: 12rem !important; */
+    padding-left: 10rem  !important;
+    padding-right: 10rem  !important;
+}
+
+.pos{
+    white-space: nowrap;
+}
+
+.social-media{
+    white-space: nowrap;
+}
+
+#right{
+    line-height: -12px;
+}
+
+.place::placeholder{
+    color: rgb(38, 110, 245);
+    font-size: 13px;
+}
+.place1::placeholder{
+    font-weight:600 ;
+}
+
+.clicked{
+    height: 3.2rem !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+.notclicked1{
+    margin-top: 11px;
+}
+.notclicked2{
+    margin-top: 23px;
+}
